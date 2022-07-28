@@ -1,0 +1,854 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #faf9f8;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 600px){
+body{
+    display: grid;
+}
+
+nav{
+    background-color: #222222;
+    width: 100%;
+    height: 100px;
+}
+
+nav .logo #hinh{
+  position: relative;
+  right: 4  00px;
+}
+
+
+}
+
+nav .logo #hinh{
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:30px ;
+
+    width: 200px;
+    height: 48px;
+
+    position: relative;
+}
+
+nav .nav-menu{
+   text-align: center;
+}
+
+nav .nav-menu ul{
+    
+
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+nav .nav-menu ul li{
+    margin-right:32px;
+    margin-top: 25px;
+
+    position: relative;
+}
+
+nav .nav-menu ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #222222;
+}
+
+nav .nav-menu ul li a:hover{
+    text-decoration: underline;
+}
+
+
+
+nav .top-right ul{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+
+    display: inline-flex;
+    margin-right: 40px;
+
+    list-style: none;
+}
+
+nav .top-right ul li{
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+nav .top-right ul li a{
+    text-decoration: none;
+
+    font-size: 14px;
+
+    color: #222222;
+}
+
+nav .top-right ul li a:hover{
+    text-decoration: underline;
+}
+
+nav .top-left ul{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+
+    display: inline-flex;
+    margin-left: 40px;
+
+    list-style: none;
+}
+
+nav .top-left ul li{
+    margin-right: 15px;
+    margin-top: 15px;
+
+}
+
+nav .top-left ul li a{
+    text-decoration: none;
+
+    font-size: 14px;
+
+    color: #222222;
+}
+
+nav .top-left ul li a:hover{
+    text-decoration: underline;
+}
+
+main .service {
+    text-align: center;
+}
+
+main .service ul{ 
+    list-style: none;
+
+    display: inline-flex;
+}
+
+main .service ul li{ 
+    margin-right:70px;
+    margin-left: 70px;
+    margin-top: 52px;
+}
+
+main .service ul li a{ 
+    font-size: 14px;
+
+    text-decoration: none;
+    color: #222222;
+}
+
+main .service ul li a:hover{ 
+    text-decoration: underline;
+}
+
+.background>img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+
+    position: relative;
+    
+}
+
+.background .text-main{
+    position: absolute;
+    left: 50%;
+    top:700px;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.background .small-cap{
+    position: absolute;
+    left: 50%;
+    top:765px;
+    transform: translate(-50%, -50%);
+
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.background .click-buy{
+    margin: 0;
+
+    position: absolute;
+    top: 89%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.background .click-buy li{
+    background-color: white;
+    list-style: none;
+    padding: 12px;
+}
+
+.background .click-buy li:hover{
+    background-color: black;
+}
+
+.background .click-buy a{
+    text-decoration: none;
+
+    color: #222222;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+
+.background .click-buy a:hover{
+    color: white;
+}
+
+
+
+main .trending p{
+    color:#222222;
+    
+    font-size: 26px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 25%;
+}
+
+main .trending .list ul{
+    display: inline-flex;
+    list-style: none;
+    position: relative;
+    left: 23%;
+    top: -16px;
+}
+
+main .trending .list ul li{
+    margin-right:15px;
+    margin-left:15px ;
+}
+
+
+main .trending .list ul li a img{
+   display: block;
+    margin-left:auto;
+    margin-right: auto;
+
+    border-radius: 50%;
+}
+
+main .trending .under-text ul{
+    display: inline-flex;
+    position: relative;
+    left: 23%;
+    top: -40px;
+
+    list-style: none;
+}
+
+main .trending .under-text ul li{
+    margin-right:42px;
+    margin-left:42px;
+}
+
+main .trending .under-text ul li a{
+    text-decoration: none;
+    color: gray;
+}
+
+main .trending .under-under-text ul{
+    position: relative;
+    left: 23.5%;
+    top: -70px;
+    display: inline-flex;
+    list-style: none;
+}
+
+main .trending .under-under-text ul li{
+    margin-right:30px;
+    margin-left:30px;
+
+}
+
+main .trending .under-under-text ul li a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #222222;
+    
+}
+
+main .extent{
+width: 970px;
+height: 100px;
+background-color: antiquewhite;
+margin: auto;
+
+position: relative;
+}
+
+main .extent p{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 30px;
+
+    color:cadetblue;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+i{
+    margin-right: 5px;
+}
+
+.background-2>img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+
+    position: relative;
+    
+}
+
+.background-2 .text-main{
+    position: absolute;
+    left: 50%;
+    top:1800px;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+.background-2 .small-cap{
+    position: absolute;
+    left: 50%;
+    top:1840px;
+    transform: translate(-50%, -50%);
+
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.background-2 .click-buy{
+    margin: 0;
+
+    position: absolute;
+    top: 1890px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.background-2 .click-buy li{
+    background-color: white;
+    list-style: none;
+    padding: 12px;
+}
+
+.background-2 .click-buy li:hover{
+    background-color: black;
+}
+
+.background-2 .click-buy a{
+    text-decoration: none;
+
+    color: #222222;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+
+.background-2 .click-buy a:hover{
+    color: white;
+}
+
+
+.background-3>img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+
+    position: relative;
+    
+}
+
+.background-3 .text-main{
+    position: absolute;
+    left: 50%;
+    top:2450px;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.background-3 .small-cap{
+    position: absolute;
+    left: 50%;
+    top:2500px;
+    transform: translate(-50%, -50%);
+
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.background-3 .click-buy{
+    margin: 0;
+
+    position: absolute;
+    top: 2550px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.background-3 .click-buy li{
+    background-color: white;
+    list-style: none;
+    padding: 12px;
+}
+
+.background-3 .click-buy li:hover{
+    background-color: black;
+}
+
+.background-3 .click-buy a{
+    text-decoration: none;
+
+    color: #222222;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+
+.background-3 .click-buy a:hover{
+    color: white;
+}
+
+.background-4>img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+
+    position: relative;
+    
+}
+
+.background-4 .text-main{
+    position: absolute;
+    left: 50%;
+    top:3150px;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.background-4 .small-cap{
+    position: absolute;
+    left: 50%;
+    top:3200px;
+    transform: translate(-50%, -50%);
+
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.background-4 .click-buy{
+    margin: 0;
+    position: absolute;
+    top: 3250px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.background-4 .click-buy li{
+    background-color: white;
+    list-style: none;
+    padding: 12px;
+}
+
+.background-4 .click-buy li:hover{
+    background-color: black;
+}
+
+.background-4 .click-buy a{
+    text-decoration: none;
+
+    color: #222222;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+
+.background-4 .click-buy a:hover{
+    color: white;
+}
+
+.tapchi{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(244, 237, 221);
+    margin-top: 50px;
+
+    position: relative;
+}
+
+.tapchi p{
+    position: absolute;
+    left: 50%;
+    top:-5%;
+    transform: translate(-50%, 50%);
+    display: block;
+
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: underline;
+    font-variant: small-caps;
+}
+
+main .tapchi span{
+    position: absolute;
+    left: 50%;
+    top:16%;
+    transform: translate(-50%, 50%);
+    display: block;
+
+    font-size:18px;
+    font-weight: bold;
+}
+
+main .column-tapchi{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    
+    margin-right: 20px;
+    margin-left: 20px;
+
+    position: relative;
+    left: 31%;
+    transform: translate(-50%, -50%);
+    top:60%;
+    float: left;
+}
+
+main .column-tapchi img{
+    width: 300px;
+    height: 150px;
+    background-color: white;
+    
+    margin-right: 20px;
+    margin-left: 20px;
+
+    position: absolute;
+    left: 43.2%;
+    transform: translate(-50%, -50%);
+    top:25%;
+    
+}
+
+main .column-tapchi p{
+    position: absolute;
+    left: 25.2%;
+    transform: translate(-50%, -50%);
+    top:56%;
+
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+
+    text-decoration: underline;
+    
+}
+
+main .column-tapchi b {
+    position: absolute;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    top:72%;
+
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    font-variant: normal;
+
+    text-align: center;
+    
+}
+
+main .column-tapchi .read-story{
+    text-align: center;
+    font-size: 12px;
+
+    position: absolute;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    top:92%;
+}
+
+footer{
+    width: 100%;
+    height: 500px;
+    background-color: #e4e4e4;
+    margin-top: 30px;
+    float: left;
+    position: relative;
+}
+
+footer .cuatiem ul{
+    position: absolute;
+    left: 23%;
+
+    list-style: none;
+}
+
+footer .cuatiem ul li{
+   margin-top: 20px;
+}
+
+footer .cuatiem ul #big{
+    font-weight: bold;
+    font-size: 20px;
+ }
+
+footer .cuatiem ul li a{
+    text-decoration: none;
+    color: rgb(63, 60, 60);
+    font-size: 12px;
+}
+
+
+footer .cuatiem-2 ul{
+    position: absolute;
+    left: 35%;
+
+    list-style: none;
+}
+
+footer .cuatiem-2 ul li{
+   margin-top: 20px;
+}
+
+footer .cuatiem-2 ul #big{
+    font-weight: bold;
+ }
+
+footer .cuatiem-2 ul li a{
+    text-decoration: none;
+    color: rgb(63, 60, 60);
+}
+
+footer .cuatiem-3 ul{
+    position: absolute;
+    left: 52%;
+
+    list-style: none;
+}
+
+footer .cuatiem-3 ul li{
+   margin-top: 20px;
+}
+
+footer .cuatiem-3 ul #big{
+    font-weight: bold;
+ }
+
+footer .cuatiem-3 ul li a{
+    text-decoration: none;
+    color: rgb(63, 60, 60);
+}
+
+footer .cuatiem-4 ul{
+    position: absolute;
+    left: 66%;
+
+    list-style: none;
+}
+
+footer .cuatiem-4 ul li{
+   margin-top: 20px;
+}
+
+footer .cuatiem-4 ul #big{
+    font-weight: bold;
+ }
+
+footer .cuatiem-4 ul li a{
+    text-decoration: none;
+    color: rgb(63, 60, 60);
+}
+
+#dangnhap{
+    font-size: 16px;
+}
+
+#dangnhap :hover{
+    color: red;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #222222;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  /* Center the image and position the close button */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+  }
+  
+  img.avatar {
+    width: 4%;
+    
+  }
+
+  
+  
+  .container {
+    padding: 16px;
+  }
+  
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button (x) */
+  .close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+  
+  /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+    
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+  }
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
